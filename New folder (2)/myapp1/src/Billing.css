@@ -1,0 +1,115 @@
+/* General styling */
+body {
+  background-color: #f2f2f2;
+  /* Lighter background color */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  /* Slightly stronger shadow */
+}
+
+/* Navigation bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-logo img {
+  width: 50px;
+  height: auto;
+}
+
+.navbar-contact {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-contact span {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-contact img {
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
+
+/* Form styling */
+.form-field {
+  margin-bottom: 15px;
+}
+
+.form-field label {
+  font-weight: bold;
+  color: #444;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.2s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #6a9dbb;
+  outline: none;
+}
+
+button {
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #34495e;
+  /* Slightly lighter blue */
+}
+
+/* Billing and Financial Module styles */
+.billing-and-financial {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.billing-and-financial h1 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+
+.billing-and-financial p {
+  margin-bottom: 12px;
+  font-size: 1rem;
+}

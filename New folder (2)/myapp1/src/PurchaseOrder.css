@@ -1,0 +1,67 @@
+/* Centered container for alignment */
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Form for adding items */
+.add-item-form {
+  margin-bottom: 20px;
+  display: flex;
+  /* Use flexbox for better layout */
+  gap: 10px;
+  /* Add space between form elements */
+}
+
+/* Style for input fields */
+.add-item-form input {
+  width: 150px;
+  /* Adjust the width as needed */
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Button styling */
+.add-item-form button {
+  padding: 8px 12px;
+  background-color: #0048b2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.add-item-form button:hover {
+  background-color: #003080;
+  /* Darker blue on hover */
+}
+
+/* Centered table */
+.centered-table {
+  width: 80%;
+  border-collapse: collapse;
+  /* Collapse table borders */
+  margin-bottom: 20px;
+}
+
+.centered-table th,
+.centered-table td {
+  padding: 10px;
+  /* Add padding to table cells */
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.centered-table th {
+  background-color: #f0f0f0;
+  /* Light gray background for headers */
+}
+.gender{
+  width: 300px;
+  height: 10px;
+}
